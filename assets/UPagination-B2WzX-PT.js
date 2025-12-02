@@ -1,0 +1,6 @@
+import{a as d,r as m,e as u,o as g,f as n,t as s,i as a,j as o,g as l}from"./index-CJXrJkbj.js";import{C as f}from"./chevron-right-2wuyl-Gm.js";/**
+ * @license lucide-vue-next v0.542.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const h=d("chevron-left",[["path",{d:"m15 18-6-6 6-6",key:"1wnfg3"}]]),v={class:"flex items-center w-full px-2 py-4 justify-end border-t"},y={class:"text-dark text-md font-medium px-2"},x={class:"flex items-center"},P={class:"px-4 py-2 text-sm font-medium text-gray-700"},C={__name:"UPagination",props:{currentPage:{type:Number},lastPage:{type:Number},total:{type:Number}},setup(e){return(r,t)=>{const i=m("UButton");return g(),u("div",v,[n("div",y,"Sahifadagi elementlar "+s(e.total)+" ta ",1),n("div",x,[a(i,{variant:"primary",disabled:e.currentPage===1,onClick:t[0]||(t[0]=c=>r.$emit("change",e.currentPage-1))},{default:o(()=>[a(l(h),{class:"w-4 h-4"})]),_:1},8,["disabled"]),n("span",P,s(e.currentPage)+" / "+s(e.lastPage),1),a(i,{variant:"primary",disabled:e.currentPage===e.lastPage,onClick:t[1]||(t[1]=c=>r.$emit("change",e.currentPage+1))},{default:o(()=>[a(l(f),{class:"w-4 h-4"})]),_:1},8,["disabled"])])])}}};export{C as _};
