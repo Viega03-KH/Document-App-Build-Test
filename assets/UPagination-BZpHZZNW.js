@@ -1,0 +1,6 @@
+import{k as d,r as u,a as m,o as g,b as s,v as n,g as a,h as l,f as i}from"./index-m9snDiDH.js";import{C as f}from"./chevron-right-HP1YvwTO.js";/**
+ * @license lucide-vue-next v0.542.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const h=d("chevron-left",[["path",{d:"m15 18-6-6 6-6",key:"1wnfg3"}]]),b={class:"flex gap-2 items-center w-full px-2 justify-end"},v={class:"text-sm txet-[#697696] font-bold"},P={class:"py-2 text-sm txet-[#697696] font-bold"},x={class:"flex flex-row gap-2 items-center"},y={__name:"UPagination",props:{currentPage:{type:Number},lastPage:{type:Number},total:{type:Number}},setup(e){return(o,t)=>{const r=u("UButton");return g(),m("div",b,[s("div",v,n(e.total)+"-",1),s("span",P,n(e.currentPage)+" / "+n(e.lastPage),1),s("div",x,[a(r,{disabled:e.currentPage===1,onClick:t[0]||(t[0]=c=>o.$emit("change",e.currentPage-1))},{default:l(()=>[a(i(h),{"stroke-width":2,class:"w-6 h-6"})]),_:1},8,["disabled"]),a(r,{disabled:e.currentPage===e.lastPage,onClick:t[1]||(t[1]=c=>o.$emit("change",e.currentPage+1))},{default:l(()=>[a(i(f),{"stroke-width":2,class:"w-6 h-6"})]),_:1},8,["disabled"])])])}}};export{y as _};
