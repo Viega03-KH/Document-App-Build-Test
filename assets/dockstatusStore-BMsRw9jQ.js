@@ -1,0 +1,1 @@
+import{E as s,A as a}from"./index-CDbZ6Fa9.js";const e=()=>s.get("task_status_list"),l=a("status",{state:()=>({status:[],selectedStatus:null,loading:!1,error:null}),actions:{async fetchAll(){try{this.loading=!0;const t=await e();this.status=t.data}catch(t){this.error=t,console.error("Status olishda xato:",t)}finally{this.loading=!1}}}});export{l as u};
